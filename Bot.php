@@ -12,7 +12,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 
 // access a custom header added in your AutoResponder rule
 // replace XXXXXX_XXXX with the name of the header in UPPERCASE (and with '-' replaced by '_')
-$myheader = $_SERVER['HTTP_XXXXXX_XXXX'];
+$myheader = $_SERVER['HTTP_maone_1'];
   
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
